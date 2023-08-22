@@ -1,0 +1,205 @@
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+a:hover{
+    color: rgb(54, 54, 250) ;
+}
+
+body{
+    background-color: rgb(29, 5, 85);
+}
+
+.header-section {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin-top: 15px;
+    font-weight: bold;
+      
+}
+
+.left-section {
+    width: 400px;
+    padding-left: 110px;
+    position: absolute;
+    z-index: 2;
+    color: black;
+    display: flex;
+    margin-inline: 2px;
+    
+}
+
+.samuel{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.middle-section{
+  width: 570px;  
+  margin-right: 10px;
+  margin-left: 400px;
+  z-index: 2;
+ 
+
+}
+
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    color: white;   
+    margin-right: 100px;
+    
+       
+}
+
+.left-section:hover,
+.right-section div:hover {
+    cursor: pointer;
+    color: rgb(54, 54, 250);
+    transition: 1s;
+}
+
+.box1 {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+}
+
+
+.container1-div {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(29, 5, 85);
+    border-radius: 200px;
+    margin-top: 110px;
+    margin-left: 80px;
+    
+   
+}
+
+.container2{
+    width: 370px;
+    height: 370px;
+    background-color: white;
+    border-radius: 185px;
+    margin-left: 95px;
+    margin-top: -383px;
+    
+}
+
+.container3 {
+    width: 346px;
+    height: 346px;
+    background-color: rgb(29, 5, 85);
+    margin-left: 107px;
+    margin-top: -358px;
+    border-radius:173px ;
+}
+
+.profile-pic {
+    width: 330px;
+    height: 330px;
+    border-radius: 165px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.text-box {
+    width: 630px;
+    position: absolute;
+    right: 0;
+    top: 150px;
+   
+}
+
+.introduction {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 0;
+   
+    
+}
+
+.introduction-text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 145px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.frontend {
+    margin-top: 0px;
+    margin-left: 283px;
+}
+
+.frontend-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(83, 189, 255);
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+}
+
+.welcome {
+    margin-top: 0px;
+    margin-left: 165px; 
+    color: rgb(241, 241, 92);
+    font-size: 20px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.long-text {
+    color: white;
+    margin-right: 90px;
+}
+
+.cv-btn {
+    width: 160px;
+    height: 34px;
+    background-color: rgb(22, 137, 209);
+    border-radius: 70px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 353px;
+    transition: 2s;
+}
+
+.cv-btn:hover{
+    background-color: rgb(218, 218, 61);
+    color: black;
+    
+}
+
+.mini-pics {
+    width: 25px;
+    height: 25px;
+    border-width: 1px;
+    border-radius: 17.5px;
+    border-style: solid;
+    border-color: aqua;
+    transition: 1s;
+ 
+}
+
+.mini-picbox {
+    margin-left: 360px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-bottom: 14px;
+    
+}
+
+.mini-pics:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
